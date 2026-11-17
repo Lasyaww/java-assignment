@@ -1,0 +1,10 @@
+Q2 — ILLUSTRATIVE OUTPUT FORMAT (TIMINGS VARY)
+
+Collection size: 1000
+ArrayList append ns: <measured value>
+LinkedList append ns: <measured value>
+ArrayList front insert ns: <measured value>
+LinkedList front insert ns: <measured value>
+... additional operations are printed by the program.
+
+The same operation results should be functionally correct; timings vary by run and machine.
