@@ -1,0 +1,6 @@
+Q6 — EXPECTED RESULT
+
+Sum of tokens collected: 210 (expected 210)
+
+The buffer capacity is 5. During execution the counter must remain between 0 and 5 inclusive. Record observed buffer sizes in a separate run if adding instrumentation.
+The current TokenCounter source implements producer-consumer communication but does not yet include the wallet-transfer deadlock demonstration required by Part A of the PDF.
