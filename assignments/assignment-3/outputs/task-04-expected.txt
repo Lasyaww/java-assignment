@@ -1,0 +1,5 @@
+Q4 — EXPECTED BEHAVIOUR
+
+Four scanner stations start and run concurrently. isAlive() may report true immediately after start; completion order varies by scheduler and timing. join() ensures the main thread continues past the joins only after all four stations have completed.
+
+Do not expect a fixed order of Station-1 through Station-4. Run at least ten times and record observed finish order for the PDF evidence.
