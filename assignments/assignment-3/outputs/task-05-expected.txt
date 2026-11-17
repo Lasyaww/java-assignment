@@ -1,0 +1,6 @@
+Q5 — EXPECTED RESULT
+
+Seats sold: 10
+
+One seat can be booked only once. The synchronized check-and-book method makes the check and state update atomic for this SeatBooking instance.
+The PDF also requires an unsynchronized comparison over ten runs and timing comparison; those results must be captured from actual runs.
