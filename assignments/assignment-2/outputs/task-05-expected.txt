@@ -1,0 +1,9 @@
+Q5 — EXPECTED RANKING
+
+Comparator rules:
+1. Points descending
+2. Goal difference descending
+3. Team name ascending
+
+For the sample data, the ranking is:
+[Eagles(9,6), Bisons(9,4), Panthers(9,4), Cobras(6,1)]
