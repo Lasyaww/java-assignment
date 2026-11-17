@@ -1,0 +1,11 @@
+Q3 — EXPECTED BEHAVIOUR
+
+Both generated reports should contain the same source lines in the same order.
+The example program writes:
+store1.txt
+store2.txt
+manual-report.txt
+safe-report.txt
+
+It then prints the line count for each report. With the included sample inputs, each report has 3 lines.
+The PDF additionally requires a part-way failure, debugger evidence and open-file leak comparison; those must be run and captured separately.
