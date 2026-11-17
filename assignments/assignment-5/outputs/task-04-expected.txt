@@ -1,0 +1,9 @@
+ILLUSTRATIVE EXPECTED BEHAVIOUR — NOT AN EXECUTION LOG
+
+Database: <Database product name>
+Driver: <JDBC driver name and version>
+Table: <table names discovered from DatabaseMetaData>
+Valid records: <count>
+Rejected records: <count>
+
+PassMigration writes rejected row details to rejected-passes.txt. Capture actual metadata and migration counts from your configured database.
