@@ -1,4 +1,4 @@
-/ ** Task 7 - Method overriding, final fields and Object method overrides. */
+/** Task 7 - Method overriding, final fields and Object method overrides. */
 public class OverridingDemo {
     static class Vehicle {
         private final String registrationNumber;
