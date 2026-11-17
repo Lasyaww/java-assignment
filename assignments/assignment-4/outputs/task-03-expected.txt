@@ -1,0 +1,6 @@
+ILLUSTRATIVE EXPECTED BEHAVIOUR — NOT A SCREENSHOT
+
+Search row remains at the top.
+Results region grows when the frame is enlarged.
+Navigation controls remain at the bottom.
+Resize test evidence required by the assignment: capture small, medium and large window sizes.
