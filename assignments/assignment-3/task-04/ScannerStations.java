@@ -1,4 +1,4 @@
-/ ** Q4 - Thread creation using Thread and Runnable, lifecycle methods. */
+/** Q4 - Thread creation using Thread and Runnable, lifecycle methods. */
 public class ScannerStations {
     static class Station extends Thread {
         private final int scripts;
