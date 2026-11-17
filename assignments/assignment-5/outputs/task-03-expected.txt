@@ -1,0 +1,7 @@
+ILLUSTRATIVE EXPECTED BEHAVIOUR — NOT AN EXECUTION LOG
+
+Successful batch:
+Loaded rows: <number of supplied valid records>
+Elapsed ms: <measured on your machine>
+
+If a row causes a failure before commit, PassLoader rolls back the transaction. Verify the table row count after the exception to confirm no partial batch remains.
