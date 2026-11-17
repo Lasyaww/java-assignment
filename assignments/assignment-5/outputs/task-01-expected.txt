@@ -1,0 +1,7 @@
+ILLUSTRATIVE EXPECTED BEHAVIOUR — NOT AN EXECUTION LOG
+
+PassStore sample:
+[P1003, 192311003, Divya, 7, 3800.0]
+null
+
+The malformed P1002 row is skipped because it does not contain exactly five comma-separated fields; the search continues to later rows.
