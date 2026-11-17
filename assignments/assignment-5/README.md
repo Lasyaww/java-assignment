@@ -1,19 +1,26 @@
 # Java Assignment 5 - CO5
 
-Source: Assignment CO5 - Data Persistence Engineering: Files and Databases.
+**Student:** A. Lasya  
+**Register number:** 192371090  
+**Course:** Programming in Java — Data Persistence Engineering: Files and Databases
 
-## Task-wise source files
-- A1/B1: `task-01/PassStore.java` - CSV pass store, add and find; skips malformed rows.
-- A2/B1: `task-01/BufferedLineCounter.java` - buffered line counter.
-- A3: DAO<T,K> design is specified as a design/pseudocode task in the PDF; no standalone Java implementation is prescribed.
-- A4: serialization/transient/versioning is a design task in the PDF.
-- A5/B2: `task-02/LoginSecurityDemo.java` - SQL concatenation versus PreparedStatement.
-- B3: `task-03/PassLoader.java`, `PassLoaderDemo.java`, `schema.sql` - transactional batch insert.
-- B4: `task-04/PassMigration.java` - validated CSV migration and JDBC metadata.
+## Task files
+- A1/B1: `task-01/PassStore.java` — text-file bus-pass store
+- A2/B1: `task-01/BufferedLineCounter.java` — buffered line counter
+- A3: DAO design described in report
+- A4: serialization design described in report
+- A5/B2: `task-02/LoginSecurityDemo.java` — unsafe SQL and PreparedStatement comparison
+- B3: `task-03/PassLoader.java`, `PassLoaderDemo.java`, `schema.sql` — transactional JDBC batch insert
+- B4: `task-04/PassMigration.java` — migration and DatabaseMetaData inspection
 
-## Run
-Use Java 11 or later. JDBC tasks require MySQL Connector/J and environment variables `JAVA_DB_URL`, `JAVA_DB_USER`, and `JAVA_DB_PASSWORD`. Run `task-03/schema.sql` before PassLoaderDemo. LoginSecurityDemo expects a local `login_test(user_id, user_password)` table. PassMigration expects five CSV fields: passId,regNo,name,route,amount.
+## Report and outputs
+- Design, pseudocode and engineering analysis: [report.md](report.md)
+- Illustrative expected behaviour notes: [outputs/](outputs/)
+- Add actual benchmark measurements, database result captures and failure/rollback evidence to `outputs/` after executing locally. The text notes are not measured execution logs.
 
-Compile a standalone class with `javac FileName.java` and run with `java ClassName`. Compile PassLoader and PassLoaderDemo together.
+## Compile and run
+Use Java 11 or later. JDBC tasks require MySQL Connector/J and environment variables `JAVA_DB_URL`, `JAVA_DB_USER`, and `JAVA_DB_PASSWORD`. Run `task-03/schema.sql` before PassLoaderDemo. LoginSecurityDemo requires a local `login_test(user_id, user_password)` table. PassMigration expects CSV rows with five fields: passId,regNo,name,route,amount.
 
-Only source code and SQL schema are included. No output screenshots or measurement files are included.
+Compile standalone files with `javac FileName.java`, then run with `java ClassName`. Compile `PassLoader.java` and `PassLoaderDemo.java` together.
+
+Only Java source code, SQL schema, report and illustrative output notes are currently included. Actual execution evidence and benchmark measurements remain to be added after local execution.
