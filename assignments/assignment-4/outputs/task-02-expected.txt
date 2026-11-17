@@ -1,0 +1,6 @@
+ILLUSTRATIVE EXPECTED BEHAVIOUR — NOT AN EXECUTION LOG
+
+Select Cardiology -> doctor list contains Dr Rao and Dr Mehta.
+Select Dermatology -> doctor list contains Dr Iyer and Dr Das.
+Enter patient ID P100 -> select department, doctor and slot -> confirmation label displays the selected appointment.
+Leave patient ID empty -> Patient ID is required.
