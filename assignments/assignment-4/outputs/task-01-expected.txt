@@ -1,0 +1,15 @@
+ILLUSTRATIVE EXPECTED BEHAVIOUR — NOT AN EXECUTION LOG
+
+Valid payment:
+Payment saved.
+
+Receipt action:
+Receipt: <register-number> | Rs <amount>
+
+Invalid amount:
+Enter a valid amount.
+
+Database unavailable or SQL failure:
+Payment could not be saved.
+
+Run requirements: MySQL Connector/J; configured JAVA_DB_URL, JAVA_DB_USER, JAVA_DB_PASSWORD; fees table with reg_no and amount columns.
