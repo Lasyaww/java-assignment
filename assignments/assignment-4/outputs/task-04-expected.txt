@@ -1,0 +1,6 @@
+ILLUSTRATIVE EXPECTED BEHAVIOUR — NOT AN EXECUTION LOG
+
+Initial label: Clicks: 0
+After first click: Clicks: 1 and a dot is drawn at the click point.
+After minimising and restoring: stored dots are redrawn and remain visible.
+After three clicks: Clicks: 3.
