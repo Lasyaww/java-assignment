@@ -1,0 +1,11 @@
+Q1 — ILLUSTRATIVE INPUT/OUTPUT CASES
+
+Balance = Rs 5000
+Input 1000 -> remaining balance Rs 4000
+Input abc -> Invalid input: enter a numeric amount.
+Input 6000 -> Transaction failed: Insufficient balance.
+Input -100 -> Invalid withdrawal: Amount cannot be negative.
+Every handled attempt prints:
+ATM transaction attempt completed.
+
+The current Java source does not implement the card-reader-file scenario from the PDF; add that test path before claiming Q1 fully covers all requirements.
