@@ -1,0 +1,10 @@
+Q4 — EXPECTED BEHAVIOUR
+
+For every dataset size (100, 1000, 10000):
+- HashMap, TreeMap and LinkedHashMap contain the same number of medicines.
+- HashMap lookup is average O(1).
+- LinkedHashMap lookup is average O(1) and iteration follows insertion order.
+- TreeMap lookup is O(log n) and keys iterate in sorted order.
+- The first inserted code is the highest generated MED code because insertion is descending; the first TreeMap key is the lowest MED code.
+
+Nanosecond timings are machine-dependent and must be measured locally.
