@@ -1,0 +1,15 @@
+Q7 — ILLUSTRATIVE OUTPUT FORMAT (TIMINGS VARY)
+
+Patients: 100
+Repeated full sort ns: <measured value>
+PriorityQueue ns: <measured value>
+
+Patients: 500
+Repeated full sort ns: <measured value>
+PriorityQueue ns: <measured value>
+
+Patients: 1000
+Repeated full sort ns: <measured value>
+PriorityQueue ns: <measured value>
+
+Do not submit placeholder timing values; replace them with repeated local measurements.
