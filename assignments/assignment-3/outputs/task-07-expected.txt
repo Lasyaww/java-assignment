@@ -1,0 +1,8 @@
+Q7 — ILLUSTRATIVE OUTPUT FORMAT (TIMINGS VARY)
+
+Threads: 1, successes: <count>, failures: <count>
+Threads: 2, successes: <count>, failures: <count>
+Threads: 4, successes: <count>, failures: <count>
+Threads: 8, successes: <count>, failures: <count>
+
+With the current sample generator, some files are missing, some contain corrupt text and the rest contain valid scores. Capture actual elapsed time as well as success/failure counts; this program currently reports counts but not elapsed time, so add timing instrumentation before completing the PDF's measurement requirement.
