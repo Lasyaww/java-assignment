@@ -1,0 +1,5 @@
+Q6 — EXPECTED SERVICE ORDER
+
+Meena(S1) Kumar(S1) Lata(S2) Ravi(S3) John(S3) Asha(S5)
+
+Lower severity number is served first. Equal-severity patients retain arrival order.
