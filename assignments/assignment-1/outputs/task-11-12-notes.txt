@@ -1,0 +1,13 @@
+INTEGRATED SYSTEM — EXECUTION EVIDENCE TO CAPTURE
+
+Run CampusSmartParkingSystem.java after compilation.
+Capture actual console output from your local run. The program uses LocalDate.now(), so dates/ticket details can vary. Also test:
+- student/staff with valid monthly pass
+- visitor parking
+- electric-car parking plus charging
+- no available slot
+- duplicate active registration
+- exit before entry
+- invalid charging units
+
+Do not treat this checklist as a captured output log.
