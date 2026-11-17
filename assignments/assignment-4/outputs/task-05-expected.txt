@@ -1,0 +1,9 @@
+ILLUSTRATIVE EXPECTED BEHAVIOUR — NOT AN EXECUTION LOG
+
+Enter a numeric amount and select From/To currencies:
+A converted value formatted to two decimal places is shown in the result label and dialog.
+
+Enter a non-numeric or negative amount:
+Invalid amount is shown and an error dialog appears.
+
+The frame listener, named inner class, anonymous inner class and lambda examples are included in Converter.java.
