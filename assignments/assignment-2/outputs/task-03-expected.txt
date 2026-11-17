@@ -1,0 +1,9 @@
+Q3 — EXPECTED LOGICAL RESULT
+
+The deliberately broken equals/hashCode implementation can retain duplicate logical students because equal objects may hash to different buckets.
+The corrected Student class compares registration number in equals() and hashCode(), so repeated registration numbers are treated as one set element.
+
+For the three supplied entries, corrected unique students: 2
+Equal objects have same hash: true
+
+The broken-set size is not a reliable portable assertion because the inherited Object hash values differ per instance.
