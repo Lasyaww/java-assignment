@@ -1,9 +1,11 @@
-# Java Assignment 1 - CO1
+# Java Assignment 1 — CO1
 
-Source: CO1 JAVA PDF - Campus Smart-Parking System.
+**Student:** A. Lasya  
+**Register number:** 192371090  
+**Course:** Programming in Java — Java Fundamentals and OOP  
+**Java:** Java 11+ recommended
 
-## Task-wise Java source files
-
+## Task-wise source files
 - Task 1: `task-01/ParkingModel.java`
 - Task 2: `task-02/ParkingArrayDemo.java`
 - Task 3: `task-03/ParkingFacility.java`
@@ -13,30 +15,34 @@ Source: CO1 JAVA PDF - Campus Smart-Parking System.
 - Task 7: `task-07/OverridingDemo.java`
 - Task 8: `task-08/FeeDemo.java`
 - Task 9: `task-09/AbstractionDemo.java`
-- Task 10: `task-10/parking/` (model and app packages)
-- Tasks 11-12: `task-11-12/CampusSmartParkingSystem.java`
+- Task 10: `task-10/parking/`
+- Tasks 11–12: `task-11-12/CampusSmartParkingSystem.java`
+
+## Report and outputs
+- Detailed task analysis: [report.md](report.md)
+- Expected output/evidence notes: [outputs/](outputs/)
+- Add actual terminal screenshots and any input files in the relevant task/output folders. Expected-output text is not a substitute for execution screenshots.
 
 ## Compile and run
-
-For standalone tasks, open the corresponding task folder and run:
+For standalone tasks, open the task folder and run:
 
 ```bash
 javac FileName.java
 java ClassName
 ```
 
-For Task 10, run these commands from the `task-10` folder:
+For Task 10, run from the `task-10` directory:
 
 ```bash
 javac parking/model/ParkingVehicle.java parking/app/EncapsulationDemo.java
 java parking.app.EncapsulationDemo
 ```
 
-For Tasks 11-12:
+For Tasks 11–12:
 
 ```bash
 javac CampusSmartParkingSystem.java
 java CampusSmartParkingSystem
 ```
 
-Only Java source code is included; output files and screenshots are intentionally omitted.
+The CO1 PDF requires each task to be executed and screenshots included. Capture actual outputs locally before final submission.
