@@ -1,4 +1,4 @@
-/ ** Q5 - Atomic check-and-book operation using synchronization. */
+/** Q5 - Atomic check-and-book operation using synchronization. */
 public class SeatBooking {
     private final boolean[] booked;
     private int bookingsMade = 0;
