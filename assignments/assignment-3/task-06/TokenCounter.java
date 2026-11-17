@@ -1,4 +1,4 @@
-/ ** Q6 - Bounded producer-consumer buffer using wait and notifyAll. */
+/** Q6 - Bounded producer-consumer buffer using wait and notifyAll. */
 public class TokenCounter {
     private final int[] buffer = new int[5];
     private int count = 0, in = 0, out = 0;
