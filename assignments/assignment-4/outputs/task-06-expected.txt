@@ -1,0 +1,9 @@
+ILLUSTRATIVE EXPECTED BEHAVIOUR — NOT AN EXECUTION LOG
+
+Normal registration: Registration saved.
+Duplicate student/event pair: Registration failed with duplicate-registration message.
+Missing student ID or name: Required-field validation message.
+Filter All: all registrations are displayed.
+Filter by event: only registrations for the selected event are displayed.
+
+Actual database output must be captured after running schema.sql and the application against a configured MySQL database.
