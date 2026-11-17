@@ -1,0 +1,9 @@
+Q1 — ILLUSTRATIVE OUTPUT FORMAT (TIMINGS VARY)
+
+Short ticket (fields=6, repetitions=2000)
+String average ns: <measured value>
+StringBuilder average ns: <measured value>
+StringBuffer average ns: <measured value>
+StringJoiner average ns: <measured value>
+
+Repeat for the many-fields and large-ticket workloads. Values depend on JVM warm-up, hardware and system load. No fixed numerical output is expected.
