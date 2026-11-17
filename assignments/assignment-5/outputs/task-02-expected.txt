@@ -1,0 +1,8 @@
+ILLUSTRATIVE EXPECTED BEHAVIOUR — NOT AN EXECUTION LOG
+
+Unsafe SQL concatenation may accept a crafted input such as:
+' OR '1'='1
+
+PreparedStatement treats that input as a literal password value and should reject it unless it is the actual stored password.
+
+Run only against a local test database with the required login_test table.
